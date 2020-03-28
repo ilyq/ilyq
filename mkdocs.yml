@@ -1,6 +1,16 @@
 site_name: My Docs
-nav:
-  - Home: index.md
-  - About: about.md
+pages:
+  - 主页: index.md
+  - 关于: about.md
+  - nginx:
+      - Ubuntu 编译安装nginx: nginx-ubuntu-build-nginx.md
+      - nginx使用auth_basic为静态文件添加访问权限: nginx-auth-basic.md
+  - Python:
+      - Usage: usage.md
+      - Tutorial: tutorial.md
 theme:
   name: "material"
+  language: "zh"
+extra:
+  search:
+    language: "jp"
